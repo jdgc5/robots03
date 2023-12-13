@@ -1,0 +1,25 @@
+.tile {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000000;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: left;
+}
+
+#tablero {
+    position: relative;
+
+}
+
+.player {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+}
